@@ -31,7 +31,7 @@
   (pythagorean? [5 12 13])
   (->> (get-triples 30)
        (filter pythagorean?))
-
+  
   (->> (get-triples 1000)
        (filter pythagorean?)
        (map triple-product))
