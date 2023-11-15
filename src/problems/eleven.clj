@@ -99,7 +99,7 @@
       results
       (if (> (+ start-col length) (count (first grid)))
         (recur (inc start-row) 0 results)
-        (recur start-row (inc start-col) (conj results (get-diagonal length start-row start-col grid)))))))
+        (recur start-row (inc start-col) (conj results (get-diagonal-right length start-row start-col grid)))))))
 
 (defn get-diagonal-left
   [length start-row start-col grid]
