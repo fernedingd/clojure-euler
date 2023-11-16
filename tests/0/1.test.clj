@@ -1,6 +1,6 @@
 (require '[clojure.test :refer [are deftest is testing]])
 
-(require '[problems.one :as problem-one])
+(require '[problems.0.1 :as problem-one])
 
 (deftest multiple?-test
   (testing "Should return true for same value"

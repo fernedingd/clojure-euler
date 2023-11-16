@@ -1,5 +1,5 @@
 ; Task: Find the difference between the sum of squares and the square of the sum of 1..100
-(ns problems.six)
+(ns problems.0.6)
 
 (defn square 
   [num]

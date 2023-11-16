@@ -1,5 +1,5 @@
 ; Task: Find the sum of all digits of 2^1000
-(ns problems.sixteen)
+(ns problems.10.16)
 
 (defn digits
   [number]

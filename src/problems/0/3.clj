@@ -1,5 +1,5 @@
 ;; Task: Find the largest prime factor of 600851475143
-(ns problems.three)
+(ns problems.0.3)
 
 (defn prime? 
   [num] 
@@ -29,7 +29,7 @@
 
 (defn get-prime-factors
   [number]
-  (loop [num, number, factors []]
+  (loop [num number, factors []]
     (let [factor (next-prime-factor 0 num)]
       (if (prime? (/ num factor)) (conj factors factor (/ num factor))
           (recur (/ num factor) (conj factors factor))))))

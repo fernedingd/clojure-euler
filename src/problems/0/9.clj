@@ -1,5 +1,5 @@
 ; Task: Find the pythagorean triples where a + b + c = 1000
-(ns problems.nine)
+(ns problems.0.9)
 
 (defn square 
   [value]

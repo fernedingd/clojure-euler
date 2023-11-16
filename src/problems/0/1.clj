@@ -1,5 +1,5 @@
 ;; Task: Find the sum of all multiples of 3 or 5 below 1000
-(ns problems.one)
+(ns problems.0.1)
 
 (defn multiple? [base num] (= 0 (mod num base)))
 

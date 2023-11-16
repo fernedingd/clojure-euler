@@ -1,5 +1,5 @@
 ; Task: Calculate the first triangle number that has over fivehoundred divisors
-(ns problems.twelve)
+(ns problems.10.12)
 
 (defn dividable?
   [num divisor]

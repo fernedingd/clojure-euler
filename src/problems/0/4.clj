@@ -1,5 +1,5 @@
 ;; Task: Fid the largest palindrome number that is the product of two three-digit numbers
-(ns problems.four)
+(ns problems.0.4)
 
 (defn palindrome?
   [value]

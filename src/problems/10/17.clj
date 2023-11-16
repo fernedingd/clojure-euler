@@ -1,5 +1,5 @@
 ; Task: Calculate the number of letters used when writing out all numbers from 1 to 1000
-(ns problems.seventeen)
+(ns problems.10.17)
 
 (def base-numbers {1 "one"
               2 "two"

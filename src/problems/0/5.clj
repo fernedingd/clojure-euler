@@ -1,5 +1,5 @@
 ; Task: Find the smallest number that is evenly divisible by all numbers from 1 to 20
-(ns problems.five)
+(ns problems.0.5)
 
 (defn multiple?
   [number dividor]

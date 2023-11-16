@@ -1,5 +1,5 @@
 ; Task: Find the 10001th prime number
-(ns problems.seven)
+(ns problems.0.7)
 
 (defn dividable?
   [num divisor]

@@ -1,5 +1,5 @@
 ; Task: Find the sum of all primes below 2.000.000
-(ns problems.ten)
+(ns problems.10.10)
 
 (defn dividable?
   [num divisor]

@@ -1,5 +1,5 @@
 ; Task: Find the longest collatz sequence starting under 1,000,000
-(ns problems.fourteen)
+(ns problems.10.14)
 
 (defn collatz-next
   "Returns the next number of the collatz sequence.

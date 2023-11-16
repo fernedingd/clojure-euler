@@ -1,5 +1,5 @@
 ; Task: Calculate the amount of SE lettice paths in a 20x20 grid
-(ns problems.fifteen)
+(ns problems.10.15)
 
 (defn factorial
   [n]

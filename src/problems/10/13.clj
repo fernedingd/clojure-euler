@@ -1,5 +1,5 @@
 ; Task: Calculate the first ten digits of the sum of 100 50-digit numbers
-(ns problems.thirteen)
+(ns problems.10.13)
 
 (def numbers [37107287533902102798797998220837590246510135740250
               46376937677490009712648124896970078050417018260538

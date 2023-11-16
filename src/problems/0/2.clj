@@ -1,5 +1,5 @@
 ;; Task: Find the sum of all fibonacci sequence values up to 4,000,000
-(ns problems.two)
+(ns problems.0.2)
 
 (defn fibonacci [[a b]] [b (+ a b)])
 
